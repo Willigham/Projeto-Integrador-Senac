@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaCadastroGAKAbI.ui'
+## Form generated from reading UI file 'FormTelaCadastrouxHKky.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -23,16 +23,17 @@ class Ui_FormTelaCadastro(object):
     def setupUi(self, FormTelaCadastro):
         if not FormTelaCadastro.objectName():
             FormTelaCadastro.setObjectName(u"FormTelaCadastro")
-        FormTelaCadastro.resize(846, 573)
+        FormTelaCadastro.setEnabled(True)
+        FormTelaCadastro.resize(800, 600)
         self.labelCadastro = QLabel(FormTelaCadastro)
         self.labelCadastro.setObjectName(u"labelCadastro")
-        self.labelCadastro.setGeometry(QRect(350, 100, 191, 41))
+        self.labelCadastro.setGeometry(QRect(320, 100, 191, 41))
         font = QFont()
         font.setPointSize(26)
         self.labelCadastro.setFont(font)
         self.frame = QFrame(FormTelaCadastro)
         self.frame.setObjectName(u"frame")
-        self.frame.setGeometry(QRect(190, 150, 461, 321))
+        self.frame.setGeometry(QRect(160, 150, 461, 321))
         self.frame.setCursor(QCursor(Qt.CursorShape.ArrowCursor))
         self.frame.setMouseTracking(False)
         self.frame.setFrameShape(QFrame.Shape.StyledPanel)
@@ -147,7 +148,7 @@ class Ui_FormTelaCadastro(object):
 
         self.pushButtonVoltarCadastro = QPushButton(FormTelaCadastro)
         self.pushButtonVoltarCadastro.setObjectName(u"pushButtonVoltarCadastro")
-        self.pushButtonVoltarCadastro.setGeometry(QRect(200, 110, 75, 24))
+        self.pushButtonVoltarCadastro.setGeometry(QRect(170, 110, 75, 24))
 
         self.retranslateUi(FormTelaCadastro)
 
@@ -155,7 +156,7 @@ class Ui_FormTelaCadastro(object):
     # setupUi
 
     def retranslateUi(self, FormTelaCadastro):
-        FormTelaCadastro.setWindowTitle(QCoreApplication.translate("FormTelaCadastro", u"Form", None))
+        FormTelaCadastro.setWindowTitle(QCoreApplication.translate("FormTelaCadastro", u"Tela Cadastro", None))
         self.labelCadastro.setText(QCoreApplication.translate("FormTelaCadastro", u"Cadastro", None))
         self.labelNome.setText(QCoreApplication.translate("FormTelaCadastro", u"Nome", None))
         self.labelSobrenome.setText(QCoreApplication.translate("FormTelaCadastro", u"Sobrenome", None))

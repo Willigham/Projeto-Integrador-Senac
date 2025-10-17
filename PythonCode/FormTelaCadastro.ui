@@ -2,21 +2,24 @@
 <ui version="4.0">
  <class>FormTelaCadastro</class>
  <widget class="QWidget" name="FormTelaCadastro">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>846</width>
-    <height>573</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Tela Cadastro</string>
   </property>
   <widget class="QLabel" name="labelCadastro">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>320</x>
      <y>100</y>
      <width>191</width>
      <height>41</height>
@@ -34,7 +37,7 @@
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>160</x>
      <y>150</y>
      <width>461</width>
      <height>321</height>
@@ -191,7 +194,7 @@
   <widget class="QPushButton" name="pushButtonVoltarCadastro">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>170</x>
      <y>110</y>
      <width>75</width>
      <height>24</height>
