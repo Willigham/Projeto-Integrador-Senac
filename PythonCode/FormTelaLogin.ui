@@ -99,7 +99,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="pushButtonEsqueciSenha">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -137,7 +137,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButtonCadastrarse">
+        <widget class="QPushButton" name="pushButtonCadastrarSe">
          <property name="text">
           <string>Cadastrar-se</string>
          </property>

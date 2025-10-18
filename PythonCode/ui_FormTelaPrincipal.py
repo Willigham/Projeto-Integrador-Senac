@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaPrincipalhDznKZ.ui'
+## Form generated from reading UI file 'FormTelaPrincipalqTHknX.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -30,7 +30,7 @@ class Ui_FormTelaPrincipal(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.frame = QFrame(self.centralwidget)
         self.frame.setObjectName(u"frame")
-        self.frame.setGeometry(QRect(0, 90, 201, 481))
+        self.frame.setGeometry(QRect(0, 10, 201, 561))
         self.frame.setFocusPolicy(Qt.FocusPolicy.NoFocus)
         self.frame.setFrameShape(QFrame.Shape.NoFrame)
         self.frame.setFrameShadow(QFrame.Shadow.Plain)
@@ -385,26 +385,16 @@ class Ui_FormTelaPrincipal(object):
         self.labelEditarPerfil.setObjectName(u"labelEditarPerfil")
         self.labelEditarPerfil.setGeometry(QRect(50, 70, 141, 41))
         self.labelEditarPerfil.setFont(font3)
-        self.labelImagemEditar = QLabel(self.page_5EditarPerfil)
-        self.labelImagemEditar.setObjectName(u"labelImagemEditar")
-        self.labelImagemEditar.setGeometry(QRect(460, 50, 71, 71))
-        self.labelImagemEditar.setPixmap(QPixmap(u"../Imagens/12225881.png"))
-        self.labelImagemEditar.setScaledContents(True)
         self.labelNomeUsuarioEditar = QLabel(self.page_5EditarPerfil)
         self.labelNomeUsuarioEditar.setObjectName(u"labelNomeUsuarioEditar")
-        self.labelNomeUsuarioEditar.setGeometry(QRect(300, 70, 141, 20))
+        self.labelNomeUsuarioEditar.setGeometry(QRect(380, 70, 141, 20))
         self.labelNomeUsuarioEditar.setFont(font)
         self.labelNomeUsuarioEditar.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.labelNomeCargoEditar = QLabel(self.page_5EditarPerfil)
         self.labelNomeCargoEditar.setObjectName(u"labelNomeCargoEditar")
-        self.labelNomeCargoEditar.setGeometry(QRect(320, 100, 111, 16))
+        self.labelNomeCargoEditar.setGeometry(QRect(400, 100, 111, 16))
         self.labelNomeCargoEditar.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.stackedWidget.addWidget(self.page_5EditarPerfil)
-        self.labelImagem = QLabel(self.centralwidget)
-        self.labelImagem.setObjectName(u"labelImagem")
-        self.labelImagem.setGeometry(QRect(70, 20, 71, 71))
-        self.labelImagem.setPixmap(QPixmap(u"../Imagens/12225881.png"))
-        self.labelImagem.setScaledContents(True)
         FormTelaPrincipal.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(FormTelaPrincipal)
         self.statusbar.setObjectName(u"statusbar")
@@ -472,9 +462,7 @@ class Ui_FormTelaPrincipal(object):
         self.pushButtonSalvar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Salvar", None))
         self.pushButtonCancelar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Cancelar", None))
         self.labelEditarPerfil.setText(QCoreApplication.translate("FormTelaPrincipal", u"Editar Perfil", None))
-        self.labelImagemEditar.setText("")
         self.labelNomeUsuarioEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Dilma Roussef", None))
         self.labelNomeCargoEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Administrador", None))
-        self.labelImagem.setText("")
     # retranslateUi
 

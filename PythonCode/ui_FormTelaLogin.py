@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaLoginegkToh.ui'
+## Form generated from reading UI file 'FormTelaLoginzfdXIU.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -78,17 +78,17 @@ class Ui_FormTelaLogin(object):
 
         self.verticalLayout_5.addWidget(self.lineEditSenha_2)
 
-        self.pushButton = QPushButton(self.frame_7)
-        self.pushButton.setObjectName(u"pushButton")
+        self.pushButtonEsqueciSenha = QPushButton(self.frame_7)
+        self.pushButtonEsqueciSenha.setObjectName(u"pushButtonEsqueciSenha")
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
-        self.pushButton.setSizePolicy(sizePolicy)
-        self.pushButton.setAutoDefault(False)
-        self.pushButton.setFlat(True)
+        sizePolicy.setHeightForWidth(self.pushButtonEsqueciSenha.sizePolicy().hasHeightForWidth())
+        self.pushButtonEsqueciSenha.setSizePolicy(sizePolicy)
+        self.pushButtonEsqueciSenha.setAutoDefault(False)
+        self.pushButtonEsqueciSenha.setFlat(True)
 
-        self.verticalLayout_5.addWidget(self.pushButton)
+        self.verticalLayout_5.addWidget(self.pushButtonEsqueciSenha)
 
 
         self.verticalLayout_4.addWidget(self.frame_7)
@@ -104,10 +104,10 @@ class Ui_FormTelaLogin(object):
 
         self.horizontalLayout_4.addWidget(self.pushButtonEntrar)
 
-        self.pushButtonCadastrarse = QPushButton(self.frame_11)
-        self.pushButtonCadastrarse.setObjectName(u"pushButtonCadastrarse")
+        self.pushButtonCadastrarSe = QPushButton(self.frame_11)
+        self.pushButtonCadastrarSe.setObjectName(u"pushButtonCadastrarSe")
 
-        self.horizontalLayout_4.addWidget(self.pushButtonCadastrarse)
+        self.horizontalLayout_4.addWidget(self.pushButtonCadastrarSe)
 
 
         self.verticalLayout_4.addWidget(self.frame_11)
@@ -124,8 +124,8 @@ class Ui_FormTelaLogin(object):
         self.labelSubTexto.setText(QCoreApplication.translate("FormTelaLogin", u"Entre na sua conta", None))
         self.labelEmail_2.setText(QCoreApplication.translate("FormTelaLogin", u"Email", None))
         self.labelSenha_2.setText(QCoreApplication.translate("FormTelaLogin", u"Senha", None))
-        self.pushButton.setText(QCoreApplication.translate("FormTelaLogin", u"Esqueci a senha", None))
+        self.pushButtonEsqueciSenha.setText(QCoreApplication.translate("FormTelaLogin", u"Esqueci a senha", None))
         self.pushButtonEntrar.setText(QCoreApplication.translate("FormTelaLogin", u"Entrar", None))
-        self.pushButtonCadastrarse.setText(QCoreApplication.translate("FormTelaLogin", u"Cadastrar-se", None))
+        self.pushButtonCadastrarSe.setText(QCoreApplication.translate("FormTelaLogin", u"Cadastrar-se", None))
     # retranslateUi
 

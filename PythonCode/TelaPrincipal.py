@@ -37,7 +37,7 @@ class TelaPrincipal(QtWidgets.QMainWindow, Ui_FormTelaPrincipal):
         self.close()
 
 
-app = QtWidgets.QApplication(sys.argv)
-janela = TelaPrincipal()
-janela.show()
-sys.exit(app.exec_())
+# app = QtWidgets.QApplication(sys.argv)
+# janela = TelaPrincipal()
+# janela.show()
+# sys.exit(app.exec_())
