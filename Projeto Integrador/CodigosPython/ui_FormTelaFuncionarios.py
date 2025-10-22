@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaFuncionariosNTWywK.ui'
+## Form generated from reading UI file 'FormTelaFuncionariosXzZakH.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -18,12 +18,12 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QPushButton,
     QSizePolicy, QVBoxLayout, QWidget)
 
-class Ui_Form(object):
-    def setupUi(self, Form):
-        if not Form.objectName():
-            Form.setObjectName(u"Form")
-        Form.resize(800, 600)
-        self.frame = QFrame(Form)
+class Ui_FormTelaFuncionarios(object):
+    def setupUi(self, FormTelaFuncionarios):
+        if not FormTelaFuncionarios.objectName():
+            FormTelaFuncionarios.setObjectName(u"FormTelaFuncionarios")
+        FormTelaFuncionarios.resize(800, 600)
+        self.frame = QFrame(FormTelaFuncionarios)
         self.frame.setObjectName(u"frame")
         self.frame.setGeometry(QRect(160, 230, 481, 191))
         self.frame.setFrameShape(QFrame.Shape.StyledPanel)
@@ -44,10 +44,10 @@ class Ui_Form(object):
 
         self.verticalLayout.addWidget(self.pushButtonConsultarEstoque)
 
-        self.pushButtonSairGenreciadorNegocios = QPushButton(Form)
+        self.pushButtonSairGenreciadorNegocios = QPushButton(FormTelaFuncionarios)
         self.pushButtonSairGenreciadorNegocios.setObjectName(u"pushButtonSairGenreciadorNegocios")
         self.pushButtonSairGenreciadorNegocios.setGeometry(QRect(160, 90, 75, 24))
-        self.labelGerenciadorNegocios = QLabel(Form)
+        self.labelGerenciadorNegocios = QLabel(FormTelaFuncionarios)
         self.labelGerenciadorNegocios.setObjectName(u"labelGerenciadorNegocios")
         self.labelGerenciadorNegocios.setGeometry(QRect(160, 120, 481, 111))
         font1 = QFont()
@@ -58,16 +58,16 @@ class Ui_Form(object):
         self.frame.raise_()
         self.pushButtonSairGenreciadorNegocios.raise_()
 
-        self.retranslateUi(Form)
+        self.retranslateUi(FormTelaFuncionarios)
 
-        QMetaObject.connectSlotsByName(Form)
+        QMetaObject.connectSlotsByName(FormTelaFuncionarios)
     # setupUi
 
-    def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
-        self.pushButtonIniciarAtendimento.setText(QCoreApplication.translate("Form", u"Iniciar Atendimento", None))
-        self.pushButtonConsultarEstoque.setText(QCoreApplication.translate("Form", u"Consultar Estoque", None))
-        self.pushButtonSairGenreciadorNegocios.setText(QCoreApplication.translate("Form", u"Sair", None))
-        self.labelGerenciadorNegocios.setText(QCoreApplication.translate("Form", u"Gerenciador de N\u00e9gocios", None))
+    def retranslateUi(self, FormTelaFuncionarios):
+        FormTelaFuncionarios.setWindowTitle(QCoreApplication.translate("FormTelaFuncionarios", u"Tela Funcionarios", None))
+        self.pushButtonIniciarAtendimento.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Iniciar Atendimento", None))
+        self.pushButtonConsultarEstoque.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Consultar Estoque", None))
+        self.pushButtonSairGenreciadorNegocios.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Sair", None))
+        self.labelGerenciadorNegocios.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Gerenciador de N\u00e9gocios", None))
     # retranslateUi
 
