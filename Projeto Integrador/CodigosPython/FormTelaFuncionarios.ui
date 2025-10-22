@@ -55,7 +55,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButtonSairGenreciadorNegocios">
+  <widget class="QPushButton" name="pushButtonSairGerenciadorNegocios">
    <property name="geometry">
     <rect>
      <x>160</x>
@@ -91,7 +91,7 @@
   </widget>
   <zorder>labelGerenciadorNegocios</zorder>
   <zorder>frame</zorder>
-  <zorder>pushButtonSairGenreciadorNegocios</zorder>
+  <zorder>pushButtonSairGerenciadorNegocios</zorder>
  </widget>
  <resources/>
  <connections/>

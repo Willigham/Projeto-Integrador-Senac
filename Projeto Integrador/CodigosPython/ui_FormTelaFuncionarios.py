@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaFuncionariosNYGOel.ui'
+## Form generated from reading UI file 'FormTelaFuncionariosoTteSo.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -44,9 +44,9 @@ class Ui_FormTelaFuncionarios(object):
 
         self.verticalLayout.addWidget(self.pushButtonConsultarEstoque)
 
-        self.pushButtonSairGenreciadorNegocios = QPushButton(FormTelaFuncionarios)
-        self.pushButtonSairGenreciadorNegocios.setObjectName(u"pushButtonSairGenreciadorNegocios")
-        self.pushButtonSairGenreciadorNegocios.setGeometry(QRect(160, 90, 75, 24))
+        self.pushButtonSairGerenciadorNegocios = QPushButton(FormTelaFuncionarios)
+        self.pushButtonSairGerenciadorNegocios.setObjectName(u"pushButtonSairGerenciadorNegocios")
+        self.pushButtonSairGerenciadorNegocios.setGeometry(QRect(160, 90, 75, 24))
         self.labelGerenciadorNegocios = QLabel(FormTelaFuncionarios)
         self.labelGerenciadorNegocios.setObjectName(u"labelGerenciadorNegocios")
         self.labelGerenciadorNegocios.setGeometry(QRect(160, 120, 481, 111))
@@ -56,7 +56,7 @@ class Ui_FormTelaFuncionarios(object):
         self.labelGerenciadorNegocios.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.labelGerenciadorNegocios.raise_()
         self.frame.raise_()
-        self.pushButtonSairGenreciadorNegocios.raise_()
+        self.pushButtonSairGerenciadorNegocios.raise_()
 
         self.retranslateUi(FormTelaFuncionarios)
 
@@ -67,7 +67,7 @@ class Ui_FormTelaFuncionarios(object):
         FormTelaFuncionarios.setWindowTitle(QCoreApplication.translate("FormTelaFuncionarios", u"Tela Funcionarios", None))
         self.pushButtonIniciarAtendimento.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Iniciar Atendimento", None))
         self.pushButtonConsultarEstoque.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Consultar Estoque", None))
-        self.pushButtonSairGenreciadorNegocios.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Sair", None))
+        self.pushButtonSairGerenciadorNegocios.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Sair", None))
         self.labelGerenciadorNegocios.setText(QCoreApplication.translate("FormTelaFuncionarios", u"Gerenciador de N\u00e9gocios", None))
     # retranslateUi
 
