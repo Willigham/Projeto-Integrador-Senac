@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaEstoqueSmivME.ui'
+## Form generated from reading UI file 'FormTelaEstoqueVJJpRX.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -19,19 +19,19 @@ from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QHeaderView,
     QLabel, QPushButton, QSizePolicy, QStackedWidget,
     QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
 
-class Ui_FormEstoque(object):
-    def setupUi(self, FormEstoque):
-        if not FormEstoque.objectName():
-            FormEstoque.setObjectName(u"FormEstoque")
-        FormEstoque.resize(800, 601)
-        self.labelEstoque = QLabel(FormEstoque)
+class Ui_FormTelaEstoque(object):
+    def setupUi(self, FormTelaEstoque):
+        if not FormTelaEstoque.objectName():
+            FormTelaEstoque.setObjectName(u"FormTelaEstoque")
+        FormTelaEstoque.resize(800, 601)
+        self.labelEstoque = QLabel(FormTelaEstoque)
         self.labelEstoque.setObjectName(u"labelEstoque")
         self.labelEstoque.setGeometry(QRect(300, 70, 231, 51))
         font = QFont()
         font.setPointSize(26)
         self.labelEstoque.setFont(font)
         self.labelEstoque.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.frame = QFrame(FormEstoque)
+        self.frame = QFrame(FormTelaEstoque)
         self.frame.setObjectName(u"frame")
         self.frame.setGeometry(QRect(140, 140, 541, 44))
         self.frame.setFrameShape(QFrame.Shape.StyledPanel)
@@ -48,10 +48,10 @@ class Ui_FormEstoque(object):
 
         self.horizontalLayout.addWidget(self.pushButtonTiraGostos)
 
-        self.pushButtonVoltarEstoque = QPushButton(FormEstoque)
+        self.pushButtonVoltarEstoque = QPushButton(FormTelaEstoque)
         self.pushButtonVoltarEstoque.setObjectName(u"pushButtonVoltarEstoque")
         self.pushButtonVoltarEstoque.setGeometry(QRect(130, 90, 75, 24))
-        self.stackedWidget = QStackedWidget(FormEstoque)
+        self.stackedWidget = QStackedWidget(FormTelaEstoque)
         self.stackedWidget.setObjectName(u"stackedWidget")
         self.stackedWidget.setGeometry(QRect(140, 200, 551, 351))
         self.pageBebidas = QWidget()
@@ -91,31 +91,31 @@ class Ui_FormEstoque(object):
 
         self.stackedWidget.addWidget(self.pageTiraGosto)
 
-        self.retranslateUi(FormEstoque)
+        self.retranslateUi(FormTelaEstoque)
 
         self.stackedWidget.setCurrentIndex(0)
 
 
-        QMetaObject.connectSlotsByName(FormEstoque)
+        QMetaObject.connectSlotsByName(FormTelaEstoque)
     # setupUi
 
-    def retranslateUi(self, FormEstoque):
-        FormEstoque.setWindowTitle(QCoreApplication.translate("FormEstoque", u"Tela Estoque", None))
-        self.labelEstoque.setText(QCoreApplication.translate("FormEstoque", u"Estoque", None))
-        self.pushButtonBebidas.setText(QCoreApplication.translate("FormEstoque", u"Bebidas", None))
-        self.pushButtonTiraGostos.setText(QCoreApplication.translate("FormEstoque", u"Tira Gosto", None))
-        self.pushButtonVoltarEstoque.setText(QCoreApplication.translate("FormEstoque", u"Voltar", None))
+    def retranslateUi(self, FormTelaEstoque):
+        FormTelaEstoque.setWindowTitle(QCoreApplication.translate("FormTelaEstoque", u"Tela Estoque", None))
+        self.labelEstoque.setText(QCoreApplication.translate("FormTelaEstoque", u"Estoque", None))
+        self.pushButtonBebidas.setText(QCoreApplication.translate("FormTelaEstoque", u"Bebidas", None))
+        self.pushButtonTiraGostos.setText(QCoreApplication.translate("FormTelaEstoque", u"Tira Gosto", None))
+        self.pushButtonVoltarEstoque.setText(QCoreApplication.translate("FormTelaEstoque", u"Voltar", None))
         ___qtablewidgetitem = self.tableWidgetBebidas.horizontalHeaderItem(0)
-        ___qtablewidgetitem.setText(QCoreApplication.translate("FormEstoque", u"Nome", None));
+        ___qtablewidgetitem.setText(QCoreApplication.translate("FormTelaEstoque", u"Nome", None));
         ___qtablewidgetitem1 = self.tableWidgetBebidas.horizontalHeaderItem(1)
-        ___qtablewidgetitem1.setText(QCoreApplication.translate("FormEstoque", u"Quantidade", None));
+        ___qtablewidgetitem1.setText(QCoreApplication.translate("FormTelaEstoque", u"Quantidade", None));
         ___qtablewidgetitem2 = self.tableWidgetBebidas.horizontalHeaderItem(2)
-        ___qtablewidgetitem2.setText(QCoreApplication.translate("FormEstoque", u"Valor", None));
+        ___qtablewidgetitem2.setText(QCoreApplication.translate("FormTelaEstoque", u"Valor", None));
         ___qtablewidgetitem3 = self.tableWidgetTiraGostos.horizontalHeaderItem(0)
-        ___qtablewidgetitem3.setText(QCoreApplication.translate("FormEstoque", u"Nome", None));
+        ___qtablewidgetitem3.setText(QCoreApplication.translate("FormTelaEstoque", u"Nome", None));
         ___qtablewidgetitem4 = self.tableWidgetTiraGostos.horizontalHeaderItem(1)
-        ___qtablewidgetitem4.setText(QCoreApplication.translate("FormEstoque", u"Quantidade", None));
+        ___qtablewidgetitem4.setText(QCoreApplication.translate("FormTelaEstoque", u"Quantidade", None));
         ___qtablewidgetitem5 = self.tableWidgetTiraGostos.horizontalHeaderItem(2)
-        ___qtablewidgetitem5.setText(QCoreApplication.translate("FormEstoque", u"Valor", None));
+        ___qtablewidgetitem5.setText(QCoreApplication.translate("FormTelaEstoque", u"Valor", None));
     # retranslateUi
 
