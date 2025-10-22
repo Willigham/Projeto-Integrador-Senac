@@ -3,6 +3,7 @@ from PySide6 import QtWidgets
 from ui_FormTelaLogin import  Ui_FormTelaLogin  # Importe a classe gerada
 from TelaPrincipal import TelaPrincipal
 from TelaCadastro import TelaCadastro
+from TelaFuncionarios import TelaFuncionarios
 
 
 class TelaLogin(QtWidgets.QMainWindow, Ui_FormTelaLogin):
@@ -20,11 +21,20 @@ class TelaLogin(QtWidgets.QMainWindow, Ui_FormTelaLogin):
         senha = self.lineEditSenha_2.text()
 
         # Login válido
-        if email == "123" and senha == "123":
+        if email == "admin" and senha == "admin":
             # Lógica para o botão "Entrar pra acessar a TelaPrincipal.py"
             self.tela_principal = TelaPrincipal()
             self.tela_principal.show()
-            self.close()
+            # limpar a caixa de textos
+            
+
+        elif email == "funcionario" and senha == "funcionario":
+            # Lógica para o botão "Entrar pra acessar a TelaFuncionarios.py"
+            from TelaFuncionarios import TelaFuncionarios
+            self.tela_funcionarios = TelaFuncionarios()
+            self.tela_funcionarios.show()
+            
+            
         
         # Login vazio
         elif email == "" or senha == "":
@@ -33,7 +43,12 @@ class TelaLogin(QtWidgets.QMainWindow, Ui_FormTelaLogin):
         # Login inválido
         else:
             QtWidgets.QMessageBox.warning(self, "Erro de Login", "Email ou senha incorretos.")
-    
+            
+        self.lineEditEmail_2.clear()
+        self.lineEditSenha_2.clear()
+
+
+
     # funcao para abrir a tela de cadastro
     def cadastrarSe(self):
         # Lógica para o botão "Entrar pra acessar a Cadastro.py"
