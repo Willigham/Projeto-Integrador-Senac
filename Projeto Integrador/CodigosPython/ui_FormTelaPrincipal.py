@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaPrincipalqTHknX.ui'
+## Form generated from reading UI file 'FormTelaPrincipalGRJXqb.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -30,7 +30,7 @@ class Ui_FormTelaPrincipal(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.frame = QFrame(self.centralwidget)
         self.frame.setObjectName(u"frame")
-        self.frame.setGeometry(QRect(0, 10, 201, 561))
+        self.frame.setGeometry(QRect(0, 20, 201, 361))
         self.frame.setFocusPolicy(Qt.FocusPolicy.NoFocus)
         self.frame.setFrameShape(QFrame.Shape.NoFrame)
         self.frame.setFrameShadow(QFrame.Shadow.Plain)
@@ -42,73 +42,47 @@ class Ui_FormTelaPrincipal(object):
         font.setPointSize(11)
         font.setBold(True)
         self.labelNomeUsuario.setFont(font)
+        self.labelNomeUsuario.setFrameShape(QFrame.Shape.NoFrame)
+        self.labelNomeUsuario.setFrameShadow(QFrame.Shadow.Plain)
         self.labelNomeUsuario.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.verticalLayout.addWidget(self.labelNomeUsuario)
 
-        self.labelNomeCargo = QLabel(self.frame)
-        self.labelNomeCargo.setObjectName(u"labelNomeCargo")
-        self.labelNomeCargo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.verticalSpacer_2 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
 
-        self.verticalLayout.addWidget(self.labelNomeCargo)
-
-        self.verticalSpacer_4 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
-
-        self.verticalLayout.addItem(self.verticalSpacer_4)
+        self.verticalLayout.addItem(self.verticalSpacer_2)
 
         self.pushButtonInicio = QPushButton(self.frame)
         self.pushButtonInicio.setObjectName(u"pushButtonInicio")
 
         self.verticalLayout.addWidget(self.pushButtonInicio)
 
-        self.verticalSpacer_2 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
 
-        self.verticalLayout.addItem(self.verticalSpacer_2)
-
-        self.pushButtonFinanceiro = QPushButton(self.frame)
-        self.pushButtonFinanceiro.setObjectName(u"pushButtonFinanceiro")
-
-        self.verticalLayout.addWidget(self.pushButtonFinanceiro)
-
-        self.verticalSpacer_5 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
-
-        self.verticalLayout.addItem(self.verticalSpacer_5)
+        self.verticalLayout.addItem(self.verticalSpacer)
 
         self.pushButtonEstoque = QPushButton(self.frame)
         self.pushButtonEstoque.setObjectName(u"pushButtonEstoque")
 
         self.verticalLayout.addWidget(self.pushButtonEstoque)
 
-        self.verticalSpacer_6 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacer_3 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
 
-        self.verticalLayout.addItem(self.verticalSpacer_6)
+        self.verticalLayout.addItem(self.verticalSpacer_3)
 
         self.pushButtonGerenciarUsuarios = QPushButton(self.frame)
         self.pushButtonGerenciarUsuarios.setObjectName(u"pushButtonGerenciarUsuarios")
 
         self.verticalLayout.addWidget(self.pushButtonGerenciarUsuarios)
 
-        self.verticalSpacer_3 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalSpacer_4 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
 
-        self.verticalLayout.addItem(self.verticalSpacer_3)
+        self.verticalLayout.addItem(self.verticalSpacer_4)
 
         self.pushButtonEditarPerfil = QPushButton(self.frame)
         self.pushButtonEditarPerfil.setObjectName(u"pushButtonEditarPerfil")
 
         self.verticalLayout.addWidget(self.pushButtonEditarPerfil)
-
-        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
-
-        self.verticalLayout.addItem(self.verticalSpacer)
-
-        self.verticalSpacer_7 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
-
-        self.verticalLayout.addItem(self.verticalSpacer_7)
-
-        self.pushButtonSair = QPushButton(self.frame)
-        self.pushButtonSair.setObjectName(u"pushButtonSair")
-
-        self.verticalLayout.addWidget(self.pushButtonSair)
 
         self.stackedWidget = QStackedWidget(self.centralwidget)
         self.stackedWidget.setObjectName(u"stackedWidget")
@@ -144,10 +118,10 @@ class Ui_FormTelaPrincipal(object):
         __qtablewidgetitem2 = QTableWidgetItem()
         self.tableWidgetComida.setHorizontalHeaderItem(2, __qtablewidgetitem2)
         self.tableWidgetComida.setObjectName(u"tableWidgetComida")
-        self.tableWidgetComida.setGeometry(QRect(20, 70, 561, 171))
+        self.tableWidgetComida.setGeometry(QRect(20, 50, 531, 171))
         self.labelEstoque = QLabel(self.page_3Estoque)
         self.labelEstoque.setObjectName(u"labelEstoque")
-        self.labelEstoque.setGeometry(QRect(20, 20, 191, 41))
+        self.labelEstoque.setGeometry(QRect(20, 10, 191, 41))
         font3 = QFont()
         font3.setPointSize(16)
         font3.setBold(False)
@@ -163,19 +137,19 @@ class Ui_FormTelaPrincipal(object):
         __qtablewidgetitem5 = QTableWidgetItem()
         self.tableWidgetBebida.setHorizontalHeaderItem(2, __qtablewidgetitem5)
         self.tableWidgetBebida.setObjectName(u"tableWidgetBebida")
-        self.tableWidgetBebida.setGeometry(QRect(20, 260, 561, 171))
+        self.tableWidgetBebida.setGeometry(QRect(20, 230, 531, 171))
         self.labelNomeItem = QLabel(self.page_3Estoque)
         self.labelNomeItem.setObjectName(u"labelNomeItem")
-        self.labelNomeItem.setGeometry(QRect(20, 470, 81, 16))
+        self.labelNomeItem.setGeometry(QRect(20, 430, 81, 16))
         self.lineEditNomeItem = QLineEdit(self.page_3Estoque)
         self.lineEditNomeItem.setObjectName(u"lineEditNomeItem")
-        self.lineEditNomeItem.setGeometry(QRect(20, 490, 571, 22))
+        self.lineEditNomeItem.setGeometry(QRect(20, 450, 571, 22))
         self.labelValorItem = QLabel(self.page_3Estoque)
         self.labelValorItem.setObjectName(u"labelValorItem")
-        self.labelValorItem.setGeometry(QRect(20, 520, 81, 16))
+        self.labelValorItem.setGeometry(QRect(20, 480, 81, 16))
         self.frame_9 = QFrame(self.page_3Estoque)
         self.frame_9.setObjectName(u"frame_9")
-        self.frame_9.setGeometry(QRect(400, 510, 191, 64))
+        self.frame_9.setGeometry(QRect(400, 470, 191, 64))
         self.frame_9.setFrameShape(QFrame.Shape.StyledPanel)
         self.frame_9.setFrameShadow(QFrame.Shadow.Raised)
         self.verticalLayout_6 = QVBoxLayout(self.frame_9)
@@ -195,17 +169,32 @@ class Ui_FormTelaPrincipal(object):
 
         self.lineEditValorItem = QLineEdit(self.page_3Estoque)
         self.lineEditValorItem.setObjectName(u"lineEditValorItem")
-        self.lineEditValorItem.setGeometry(QRect(20, 540, 151, 22))
+        self.lineEditValorItem.setGeometry(QRect(20, 500, 151, 22))
         self.labelQuantidadeItem = QLabel(self.page_3Estoque)
         self.labelQuantidadeItem.setObjectName(u"labelQuantidadeItem")
-        self.labelQuantidadeItem.setGeometry(QRect(220, 520, 71, 16))
+        self.labelQuantidadeItem.setGeometry(QRect(220, 480, 71, 16))
         self.lineEditQuantidadeItem = QLineEdit(self.page_3Estoque)
         self.lineEditQuantidadeItem.setObjectName(u"lineEditQuantidadeItem")
-        self.lineEditQuantidadeItem.setGeometry(QRect(220, 540, 151, 22))
+        self.lineEditQuantidadeItem.setGeometry(QRect(220, 500, 151, 22))
         self.labelCadastrarItem = QLabel(self.page_3Estoque)
         self.labelCadastrarItem.setObjectName(u"labelCadastrarItem")
-        self.labelCadastrarItem.setGeometry(QRect(220, 440, 141, 31))
+        self.labelCadastrarItem.setGeometry(QRect(220, 400, 141, 31))
         self.labelCadastrarItem.setFont(font3)
+        self.pushButtonAdicionarItem = QPushButton(self.page_3Estoque)
+        self.pushButtonAdicionarItem.setObjectName(u"pushButtonAdicionarItem")
+        self.pushButtonAdicionarItem.setGeometry(QRect(20, 540, 281, 24))
+        self.pushButtonCancelarItem = QPushButton(self.page_3Estoque)
+        self.pushButtonCancelarItem.setObjectName(u"pushButtonCancelarItem")
+        self.pushButtonCancelarItem.setGeometry(QRect(320, 540, 271, 24))
+        self.pushButtonRemoverBebida = QPushButton(self.page_3Estoque)
+        self.pushButtonRemoverBebida.setObjectName(u"pushButtonRemoverBebida")
+        self.pushButtonRemoverBebida.setGeometry(QRect(550, 230, 31, 171))
+        icon = QIcon(QIcon.fromTheme(QIcon.ThemeIcon.EditDelete))
+        self.pushButtonRemoverBebida.setIcon(icon)
+        self.pushButtonRemoverComida = QPushButton(self.page_3Estoque)
+        self.pushButtonRemoverComida.setObjectName(u"pushButtonRemoverComida")
+        self.pushButtonRemoverComida.setGeometry(QRect(550, 50, 31, 171))
+        self.pushButtonRemoverComida.setIcon(icon)
         self.stackedWidget.addWidget(self.page_3Estoque)
         self.page_4GerenciarUsuarios = QWidget()
         self.page_4GerenciarUsuarios.setObjectName(u"page_4GerenciarUsuarios")
@@ -395,6 +384,9 @@ class Ui_FormTelaPrincipal(object):
         self.labelNomeCargoEditar.setGeometry(QRect(400, 100, 111, 16))
         self.labelNomeCargoEditar.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.stackedWidget.addWidget(self.page_5EditarPerfil)
+        self.pushButtonSair = QPushButton(self.centralwidget)
+        self.pushButtonSair.setObjectName(u"pushButtonSair")
+        self.pushButtonSair.setGeometry(QRect(0, 550, 183, 24))
         FormTelaPrincipal.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(FormTelaPrincipal)
         self.statusbar.setObjectName(u"statusbar")
@@ -410,14 +402,11 @@ class Ui_FormTelaPrincipal(object):
 
     def retranslateUi(self, FormTelaPrincipal):
         FormTelaPrincipal.setWindowTitle(QCoreApplication.translate("FormTelaPrincipal", u"Tela Principal", None))
-        self.labelNomeUsuario.setText(QCoreApplication.translate("FormTelaPrincipal", u"Dilma Roussef", None))
-        self.labelNomeCargo.setText(QCoreApplication.translate("FormTelaPrincipal", u"Administrador", None))
+        self.labelNomeUsuario.setText(QCoreApplication.translate("FormTelaPrincipal", u"Adminstrador", None))
         self.pushButtonInicio.setText(QCoreApplication.translate("FormTelaPrincipal", u"Inicio", None))
-        self.pushButtonFinanceiro.setText(QCoreApplication.translate("FormTelaPrincipal", u"Financeiro", None))
         self.pushButtonEstoque.setText(QCoreApplication.translate("FormTelaPrincipal", u"Estoque", None))
         self.pushButtonGerenciarUsuarios.setText(QCoreApplication.translate("FormTelaPrincipal", u"Gerenciar Usu\u00e1rios", None))
         self.pushButtonEditarPerfil.setText(QCoreApplication.translate("FormTelaPrincipal", u"Editar Perfil", None))
-        self.pushButtonSair.setText(QCoreApplication.translate("FormTelaPrincipal", u"SAIR", None))
         self.labelBemVindo.setText(QCoreApplication.translate("FormTelaPrincipal", u"Bem Vindo !", None))
         self.labelNomeCargo_2.setText(QCoreApplication.translate("FormTelaPrincipal", u"Administrador", None))
         ___qtablewidgetitem = self.tableWidgetComida.horizontalHeaderItem(0)
@@ -428,7 +417,7 @@ class Ui_FormTelaPrincipal(object):
         ___qtablewidgetitem2.setText(QCoreApplication.translate("FormTelaPrincipal", u"QUANTIDADE", None));
         self.labelEstoque.setText(QCoreApplication.translate("FormTelaPrincipal", u"Estoque", None))
         ___qtablewidgetitem3 = self.tableWidgetBebida.horizontalHeaderItem(0)
-        ___qtablewidgetitem3.setText(QCoreApplication.translate("FormTelaPrincipal", u"BEBIDA", None));
+        ___qtablewidgetitem3.setText(QCoreApplication.translate("FormTelaPrincipal", u"BEBIDAS", None));
         ___qtablewidgetitem4 = self.tableWidgetBebida.horizontalHeaderItem(1)
         ___qtablewidgetitem4.setText(QCoreApplication.translate("FormTelaPrincipal", u"VALOR", None));
         ___qtablewidgetitem5 = self.tableWidgetBebida.horizontalHeaderItem(2)
@@ -437,11 +426,15 @@ class Ui_FormTelaPrincipal(object):
         self.labelValorItem.setText(QCoreApplication.translate("FormTelaPrincipal", u"Valor", None))
         self.labelTipoItem.setText(QCoreApplication.translate("FormTelaPrincipal", u"Tipo", None))
         self.comboBoxItem.setItemText(0, QCoreApplication.translate("FormTelaPrincipal", u"Selecione...", None))
-        self.comboBoxItem.setItemText(1, QCoreApplication.translate("FormTelaPrincipal", u"Comida", None))
+        self.comboBoxItem.setItemText(1, QCoreApplication.translate("FormTelaPrincipal", u"Tira Gosto", None))
         self.comboBoxItem.setItemText(2, QCoreApplication.translate("FormTelaPrincipal", u"Bebida", None))
 
         self.labelQuantidadeItem.setText(QCoreApplication.translate("FormTelaPrincipal", u"Quantidade", None))
         self.labelCadastrarItem.setText(QCoreApplication.translate("FormTelaPrincipal", u"Cadastrar Item", None))
+        self.pushButtonAdicionarItem.setText(QCoreApplication.translate("FormTelaPrincipal", u"ADICIONAR ITEM", None))
+        self.pushButtonCancelarItem.setText(QCoreApplication.translate("FormTelaPrincipal", u"CANCELAR", None))
+        self.pushButtonRemoverBebida.setText("")
+        self.pushButtonRemoverComida.setText("")
         ___qtablewidgetitem6 = self.tableWidgetUsuarios.horizontalHeaderItem(0)
         ___qtablewidgetitem6.setText(QCoreApplication.translate("FormTelaPrincipal", u"ID", None));
         ___qtablewidgetitem7 = self.tableWidgetUsuarios.horizontalHeaderItem(1)
@@ -464,5 +457,6 @@ class Ui_FormTelaPrincipal(object):
         self.labelEditarPerfil.setText(QCoreApplication.translate("FormTelaPrincipal", u"Editar Perfil", None))
         self.labelNomeUsuarioEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Dilma Roussef", None))
         self.labelNomeCargoEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Administrador", None))
+        self.pushButtonSair.setText(QCoreApplication.translate("FormTelaPrincipal", u"SAIR", None))
     # retranslateUi
 
