@@ -466,17 +466,7 @@
       </property>
       <column>
        <property name="text">
-        <string>ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
         <string>NOME</string>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>true</kerning>
-        </font>
        </property>
       </column>
       <column>
@@ -532,9 +522,9 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QPushButton" name="pushButtonCadastrar">
+        <widget class="QPushButton" name="pushButtonAtualizar">
          <property name="text">
-          <string>Cadastrar</string>
+          <string>Atualizar</string>
          </property>
         </widget>
        </item>
@@ -743,44 +733,6 @@
       </property>
       <property name="text">
        <string>Editar Perfil</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="labelNomeUsuarioEditar">
-      <property name="geometry">
-       <rect>
-        <x>380</x>
-        <y>70</y>
-        <width>141</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>11</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>Dilma Roussef</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="labelNomeCargoEditar">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>100</y>
-        <width>111</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Administrador</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
     </widget>

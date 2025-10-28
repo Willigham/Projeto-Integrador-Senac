@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaPrincipalZZqePz.ui'
+## Form generated from reading UI file 'FormTelaPrincipalppviuU.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -199,22 +199,17 @@ class Ui_FormTelaPrincipal(object):
         self.page_4GerenciarUsuarios = QWidget()
         self.page_4GerenciarUsuarios.setObjectName(u"page_4GerenciarUsuarios")
         self.tableWidgetUsuarios = QTableWidget(self.page_4GerenciarUsuarios)
-        if (self.tableWidgetUsuarios.columnCount() < 4):
-            self.tableWidgetUsuarios.setColumnCount(4)
+        if (self.tableWidgetUsuarios.columnCount() < 3):
+            self.tableWidgetUsuarios.setColumnCount(3)
         __qtablewidgetitem6 = QTableWidgetItem()
         self.tableWidgetUsuarios.setHorizontalHeaderItem(0, __qtablewidgetitem6)
         font4 = QFont()
-        font4.setKerning(True)
+        font4.setPointSize(9)
         __qtablewidgetitem7 = QTableWidgetItem()
         __qtablewidgetitem7.setFont(font4);
         self.tableWidgetUsuarios.setHorizontalHeaderItem(1, __qtablewidgetitem7)
-        font5 = QFont()
-        font5.setPointSize(9)
         __qtablewidgetitem8 = QTableWidgetItem()
-        __qtablewidgetitem8.setFont(font5);
         self.tableWidgetUsuarios.setHorizontalHeaderItem(2, __qtablewidgetitem8)
-        __qtablewidgetitem9 = QTableWidgetItem()
-        self.tableWidgetUsuarios.setHorizontalHeaderItem(3, __qtablewidgetitem9)
         self.tableWidgetUsuarios.setObjectName(u"tableWidgetUsuarios")
         self.tableWidgetUsuarios.setGeometry(QRect(20, 130, 561, 381))
         self.labelGerenciarUsuarios = QLabel(self.page_4GerenciarUsuarios)
@@ -228,10 +223,10 @@ class Ui_FormTelaPrincipal(object):
         self.frame_10.setFrameShadow(QFrame.Shadow.Raised)
         self.horizontalLayout_3 = QHBoxLayout(self.frame_10)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
-        self.pushButtonCadastrar = QPushButton(self.frame_10)
-        self.pushButtonCadastrar.setObjectName(u"pushButtonCadastrar")
+        self.pushButtonAtualizar = QPushButton(self.frame_10)
+        self.pushButtonAtualizar.setObjectName(u"pushButtonAtualizar")
 
-        self.horizontalLayout_3.addWidget(self.pushButtonCadastrar)
+        self.horizontalLayout_3.addWidget(self.pushButtonAtualizar)
 
         self.pushButtonEditar = QPushButton(self.frame_10)
         self.pushButtonEditar.setObjectName(u"pushButtonEditar")
@@ -374,15 +369,6 @@ class Ui_FormTelaPrincipal(object):
         self.labelEditarPerfil.setObjectName(u"labelEditarPerfil")
         self.labelEditarPerfil.setGeometry(QRect(50, 70, 141, 41))
         self.labelEditarPerfil.setFont(font3)
-        self.labelNomeUsuarioEditar = QLabel(self.page_5EditarPerfil)
-        self.labelNomeUsuarioEditar.setObjectName(u"labelNomeUsuarioEditar")
-        self.labelNomeUsuarioEditar.setGeometry(QRect(380, 70, 141, 20))
-        self.labelNomeUsuarioEditar.setFont(font)
-        self.labelNomeUsuarioEditar.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.labelNomeCargoEditar = QLabel(self.page_5EditarPerfil)
-        self.labelNomeCargoEditar.setObjectName(u"labelNomeCargoEditar")
-        self.labelNomeCargoEditar.setGeometry(QRect(400, 100, 111, 16))
-        self.labelNomeCargoEditar.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.stackedWidget.addWidget(self.page_5EditarPerfil)
         self.pushButtonSair = QPushButton(self.centralwidget)
         self.pushButtonSair.setObjectName(u"pushButtonSair")
@@ -436,15 +422,13 @@ class Ui_FormTelaPrincipal(object):
         self.pushButtonRemoverBebida.setText("")
         self.pushButtonRemoverComida.setText("")
         ___qtablewidgetitem6 = self.tableWidgetUsuarios.horizontalHeaderItem(0)
-        ___qtablewidgetitem6.setText(QCoreApplication.translate("FormTelaPrincipal", u"ID", None));
+        ___qtablewidgetitem6.setText(QCoreApplication.translate("FormTelaPrincipal", u"NOME", None));
         ___qtablewidgetitem7 = self.tableWidgetUsuarios.horizontalHeaderItem(1)
-        ___qtablewidgetitem7.setText(QCoreApplication.translate("FormTelaPrincipal", u"NOME", None));
+        ___qtablewidgetitem7.setText(QCoreApplication.translate("FormTelaPrincipal", u"EMAIL", None));
         ___qtablewidgetitem8 = self.tableWidgetUsuarios.horizontalHeaderItem(2)
-        ___qtablewidgetitem8.setText(QCoreApplication.translate("FormTelaPrincipal", u"EMAIL", None));
-        ___qtablewidgetitem9 = self.tableWidgetUsuarios.horizontalHeaderItem(3)
-        ___qtablewidgetitem9.setText(QCoreApplication.translate("FormTelaPrincipal", u"CARGO", None));
+        ___qtablewidgetitem8.setText(QCoreApplication.translate("FormTelaPrincipal", u"CARGO", None));
         self.labelGerenciarUsuarios.setText(QCoreApplication.translate("FormTelaPrincipal", u"Gerenciar Usu\u00e1rios", None))
-        self.pushButtonCadastrar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Cadastrar", None))
+        self.pushButtonAtualizar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Atualizar", None))
         self.pushButtonEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Editar", None))
         self.pushButtonExcluir.setText(QCoreApplication.translate("FormTelaPrincipal", u"Excluir", None))
         self.labelNome.setText(QCoreApplication.translate("FormTelaPrincipal", u"Nome", None))
@@ -455,8 +439,6 @@ class Ui_FormTelaPrincipal(object):
         self.pushButtonSalvar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Salvar", None))
         self.pushButtonCancelar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Cancelar", None))
         self.labelEditarPerfil.setText(QCoreApplication.translate("FormTelaPrincipal", u"Editar Perfil", None))
-        self.labelNomeUsuarioEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Dilma Roussef", None))
-        self.labelNomeCargoEditar.setText(QCoreApplication.translate("FormTelaPrincipal", u"Administrador", None))
         self.pushButtonSair.setText(QCoreApplication.translate("FormTelaPrincipal", u"SAIR", None))
     # retranslateUi
 

@@ -17,7 +17,13 @@ class TelaPrincipal(QtWidgets.QMainWindow, Ui_FormTelaPrincipal):
         self.pushButtonRemoverComida.clicked.connect(self.removerComida)
         self.pushButtonRemoverBebida.clicked.connect(self.removerBebida)
         self.pushButtonCancelarItem.clicked.connect(self.cancelarItem)
-        self.Item = []  # Lista para armazenar todos os itens cadastrados
+        self.pushButtonAtualizar.clicked.connect(self.exibirUsuarios)
+        self.item = []  # Lista para armazenar todos os itens cadastrados
+        self.pessoas = [  # Lista de pessoas para demonstração
+            Pessoa("João", "Silva", "joao.silva@example.com", "senha123"),
+            Pessoa("Maria", "Oliveira", "maria.oliveira@example.com", "senha456"),
+            Pessoa("Pedro", "Santos", "pedro.santos@example.com", "senha789")
+        ]
 
     # funcoes dos botoes da tela principal
     def inicio(self):
@@ -72,7 +78,7 @@ class TelaPrincipal(QtWidgets.QMainWindow, Ui_FormTelaPrincipal):
             
         novo_item = Item(nome, quantidade, valor)
         novo_item.tipo = tipo
-        self.Item.append(novo_item)
+        self.item.append(novo_item)
         self.lineEditNomeItem.clear()
         self.lineEditQuantidadeItem.clear()
         self.lineEditValorItem.clear()
@@ -103,7 +109,19 @@ class TelaPrincipal(QtWidgets.QMainWindow, Ui_FormTelaPrincipal):
         self.lineEditNomeItem.clear()
         self.lineEditQuantidadeItem.clear()
         self.lineEditValorItem.clear()
-    
+
+    # exibir usuarios na tableWidgetUsuarios
+    def exibirUsuarios(self):
+        self.tableWidgetUsuarios.setRowCount(0)  # Limpa a tabela antes de exibir os usuários
+        for pessoa in self.pessoas:
+            rowPosition = self.tableWidgetUsuarios.rowCount()
+            self.tableWidgetUsuarios.insertRow(rowPosition)
+            self.tableWidgetUsuarios.setItem(rowPosition , 0, QtWidgets.QTableWidgetItem(pessoa.nome + " " + pessoa.sobrenome))
+            self.tableWidgetUsuarios.setItem(rowPosition , 1, QtWidgets.QTableWidgetItem(pessoa.email))
+            self.tableWidgetUsuarios.setItem(rowPosition , 2, QtWidgets.QTableWidgetItem(pessoa.cargo))
+
+
+
 
         
             

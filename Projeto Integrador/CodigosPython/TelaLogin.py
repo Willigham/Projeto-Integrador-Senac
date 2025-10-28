@@ -28,7 +28,7 @@ class TelaLogin(QtWidgets.QMainWindow, Ui_FormTelaLogin):
             # limpar a caixa de textos
             
 
-        elif email == "funcionario" and senha == "funcionario":
+        elif email == "func" and senha == "func":
             # Lógica para o botão "Entrar pra acessar a TelaFuncionarios.py"
             from TelaFuncionarios import TelaFuncionarios
             self.tela_funcionarios = TelaFuncionarios()
