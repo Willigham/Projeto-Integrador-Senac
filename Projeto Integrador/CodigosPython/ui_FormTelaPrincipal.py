@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FormTelaPrincipalGRJXqb.ui'
+## Form generated from reading UI file 'FormTelaPrincipalZZqePz.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.3
 ##
@@ -386,7 +386,7 @@ class Ui_FormTelaPrincipal(object):
         self.stackedWidget.addWidget(self.page_5EditarPerfil)
         self.pushButtonSair = QPushButton(self.centralwidget)
         self.pushButtonSair.setObjectName(u"pushButtonSair")
-        self.pushButtonSair.setGeometry(QRect(0, 550, 183, 24))
+        self.pushButtonSair.setGeometry(QRect(10, 550, 183, 24))
         FormTelaPrincipal.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(FormTelaPrincipal)
         self.statusbar.setObjectName(u"statusbar")
